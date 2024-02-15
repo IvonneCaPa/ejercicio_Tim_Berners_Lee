@@ -4,14 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tim Berners-Lee</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <h1>Tim Berners-Lee</h1>
+    <header>
+      <picture>
+        <source srcset="img/portada_500x200.avif" media="(max-width:500px)">
+        <source srcset="img/portada_1100x440.avif" media="(max-width:1100px)">
+        <img id="imgportada"  src="img/portada_1920x768.avif" alt="lenguaje programacion">
+      </picture>
+    </header>
+    <main>
+      <h1>Tim Berners-Lee</h1>
+    <figure>
     <img
       src="img/Sir_Tim_Berners-Lee_(cropped).jpg"
       alt="Sir_Tim_Berners-Lee_(cropped)"
       width="25%"
     />
+    </figure>
     <p>
       Timothy "Tim" John Berners-Lee (Londres, Inglaterra; 8 de junio de 1955)
       es un científico de la computación británico, conocido por ser el padre de
@@ -275,5 +287,10 @@
         towards standards compliance. » <a href="#v16">⬆️</a>
       </li>
     </ol>
+    </main>
+    <footer>
+      <p class="pie">&copy;Ivonne</p>
+      <p class="pie">Curso 2024</p>
+    </footer>
   </body>
 </html>
